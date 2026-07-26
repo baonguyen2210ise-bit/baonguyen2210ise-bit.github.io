@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://baonguyen2210ise-bit.github.io/sitemap.xml
