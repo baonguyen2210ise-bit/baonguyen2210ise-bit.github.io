@@ -17,3 +17,10 @@ Each case study is stored under:
 `projects/<project-name>/index.html`
 
 All case studies follow the STAR structure: Situation, Task, Action, Result.
+
+
+## Latest update
+- Compact hero with full uncropped profile image
+- Core skills overview replacing KPI cards
+- Project Portfolio section label
+- Added undergraduate thesis case study: Tank-Truck Transportation Route Optimization
