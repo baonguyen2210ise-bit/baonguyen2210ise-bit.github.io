@@ -1,8 +1,277 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Production Quality Gate, Buy-off &amp; FAI Control case study by Nguyen Viet Bao."><meta name="theme-color" content="#f6f5f1"><link rel="icon" href="../../favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="../../assets/css/style.css"><title>Production Quality Gate, Buy-off &amp; FAI Control — Nguyen Viet Bao</title></head><body>
-<header class="site-header"><div class="container header-inner"><a class="brand" href="../../">NB<span>.</span></a><nav class="nav" aria-label="Main navigation"><a href="../../#about">About</a><a href="../../#projects">Projects</a><a href="../../#experience">Experience</a><a href="../../#contact">Contact</a></nav><button class="menu-toggle" type="button" aria-expanded="false" aria-label="Toggle menu"><span></span><span></span><span></span></button><a class="header-link" href="../../assets/documents/Nguyen_Viet_Bao_CV.pdf" target="_blank" rel="noopener">View CV ↗</a></div></header>
-<main><section class="case-hero"><div class="container"><a class="back-link" href="../../#projects">← Back to project portfolio</a><div class="case-title-row"><div><p class="eyebrow">01 · Factory Applications · Quality Operations</p><h1>Production Quality Gate, Buy-off &amp; FAI Control</h1></div><p class="case-intro">A connected workflow for Production and IPQC to control Buy-off, FAI, BOM validation, approvals, exceptions, and pending-job follow-up.</p></div><div class="case-image reveal"><img src="../../assets/images/projects/quality-gate.svg" alt="Placeholder image for Production Quality Gate, Buy-off &amp; FAI Control"></div></div></section>
-<section><div class="container case-facts"><div class="fact"><span>Role</span><strong>Process Designer &amp; Solution Builder</strong></div><div class="fact"><span>Scope</span><strong>Production · IPQC · Warehouse · PMC</strong></div><div class="fact"><span>Project Type</span><strong>Factory Applications · Quality Operations</strong></div><div class="fact"><span>Status</span><strong>Portfolio summary · high-level</strong></div></div></section>
-<section class="section"><div class="container star-layout"><div class="section-label">STAR Case Study</div><div class="star-list"><article class="star-card reveal"><div class="star-letter">S</div><div><h2>Situation</h2><p>Quality-gate activities were distributed across separate operational steps, creating limited visibility into job status, approvals, exceptions, and whether Production could safely continue to the next stage.</p></div></article><article class="star-card reveal"><div class="star-letter">T</div><div><h2>Task</h2><p>Define a consistent end-to-end process and build a digital control layer that connected Production and IPQC without adding unnecessary manual work.</p></div></article><article class="star-card reveal"><div class="star-letter">A</div><div><h2>Action</h2><p>Mapped the Buy-off and FAI workflow, translated shop-floor rules into business logic, designed data structures and status models, built Power Apps interfaces, automated notifications and approvals, connected Databricks data, and created Power BI follow-up views. The solution also covered BOM comparison, rejection paths, pending-job control, and history tracking.</p></div></article><article class="star-card reveal"><div class="star-letter">R</div><div><h2>Result</h2><p>Created one visible workflow for registration, confirmation, rejection, escalation, and follow-up. The system improved cross-functional coordination, made pending work easier to identify, and reduced reliance on fragmented manual tracking.</p></div></article></div></div></section>
-<section class="section section-tight"><div class="container"><div class="section-head"><div class="section-label">Key Highlights</div><div><h2>What this project demonstrates.</h2><p>Technology and methods: Power Apps · Power Automate · SharePoint · Databricks SQL · Power BI.</p></div></div><div class="highlight-list"><div class="highlight reveal">End-to-end Buy-off and FAI status control</div><div class="highlight reveal">Automated reminders and consolidated notifications</div><div class="highlight reveal">Production/IPQC coordination with traceable history</div></div></div></section>
-<section><div class="container case-nav"><a href="../line-balancing/">← Line Balancing &amp; Manpower Optimization</a><a href="../traceability-audit/">Manufacturing Traceability &amp; Data Audit →</a></div></section></main>
-<footer class="footer"><div class="container footer-inner"><span>© <span data-year></span> Nguyen Viet Bao</span><a href="../../#projects">All projects</a></div></footer><script src="../../assets/js/main.js"></script></body></html>
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width,initial-scale=1" name="viewport"/>
+  <meta content="Production Quality Gate, Buy-off &amp; FAI Control case study by Nguyen Viet Bao." name="description"/>
+  <meta content="#f6f5f1" name="theme-color"/>
+  <link href="../../favicon.svg" rel="icon" type="image/svg+xml"/>
+  <link href="../../assets/css/style.css" rel="stylesheet"/>
+  <title>
+   Production Quality Gate, Buy-off &amp; FAI Control &mdash; Nguyen Viet Bao
+  </title>
+ </head>
+ <body>
+  <header class="site-header">
+   <div class="container header-inner">
+    <a class="brand" href="../../">
+     NB
+     <span>
+      .
+     </span>
+    </a>
+    <nav aria-label="Main navigation" class="nav">
+     <a href="../../#about">
+      About
+     </a>
+     <a href="../../#projects">
+      Projects
+     </a>
+     <a href="../../#experience">
+      Experience
+     </a>
+     <a href="../../#contact">
+      Contact
+     </a>
+    </nav>
+    <button aria-expanded="false" aria-label="Toggle menu" class="menu-toggle" type="button">
+     <span>
+     </span>
+     <span>
+     </span>
+     <span>
+     </span>
+    </button>
+    <a class="header-link" href="../../assets/documents/Nguyen_Viet_Bao_CV.pdf" rel="noopener" target="_blank">
+     View CV &nearrow;
+    </a>
+   </div>
+  </header>
+  <main>
+   <section class="case-hero">
+    <div class="container">
+     <a class="back-link" href="../../#projects">
+      &larr; Back to project portfolio
+     </a>
+     <div class="case-title-row">
+      <div>
+       <p class="eyebrow">
+        01 &middot; Factory Applications &middot; Quality Operations
+       </p>
+       <h1>
+        Production Quality Gate, Buy-off &amp; FAI Control
+       </h1>
+      </div>
+      <p class="case-intro">
+       A connected workflow for Production and IPQC to control Buy-off, FAI, BOM validation, approvals, exceptions, and pending-job follow-up.
+      </p>
+     </div>
+     <div class="case-image reveal case-image--contain">
+      <img alt="Quality Gate Audit dashboard showing buy-off, FAI, pass, reject, and pending status" src="../../assets/images/projects/quality-gate/dashboard.webp"/>
+     </div>
+    </div>
+   </section>
+   <section>
+    <div class="container case-facts">
+     <div class="fact">
+      <span>
+       Role
+      </span>
+      <strong>
+       Process Designer &amp; Solution Builder
+      </strong>
+     </div>
+     <div class="fact">
+      <span>
+       Scope
+      </span>
+      <strong>
+       Production &middot; IPQC &middot; Warehouse &middot; PMC
+      </strong>
+     </div>
+     <div class="fact">
+      <span>
+       Project Type
+      </span>
+      <strong>
+       Factory Applications &middot; Quality Operations
+      </strong>
+     </div>
+     <div class="fact">
+      <span>
+       Status
+      </span>
+      <strong>
+       Portfolio summary &middot; high-level
+      </strong>
+     </div>
+    </div>
+   </section>
+   <section class="section">
+    <div class="container star-layout">
+     <div class="section-label">
+      STAR Case Study
+     </div>
+     <div class="star-list">
+      <article class="star-card reveal">
+       <div class="star-letter">
+        S
+       </div>
+       <div>
+        <h2>
+         Situation
+        </h2>
+        <p>
+         Quality-gate activities were distributed across separate operational steps, creating limited visibility into job status, approvals, exceptions, and whether Production could safely continue to the next stage.
+        </p>
+       </div>
+      </article>
+      <article class="star-card reveal">
+       <div class="star-letter">
+        T
+       </div>
+       <div>
+        <h2>
+         Task
+        </h2>
+        <p>
+         Define a consistent end-to-end process and build a digital control layer that connected Production and IPQC without adding unnecessary manual work.
+        </p>
+       </div>
+      </article>
+      <article class="star-card reveal">
+       <div class="star-letter">
+        A
+       </div>
+       <div>
+        <h2>
+         Action
+        </h2>
+        <p>
+         Mapped the Buy-off and FAI workflow, translated shop-floor rules into business logic, designed data structures and status models, built Power Apps interfaces, automated notifications and approvals, connected Databricks data, and created Power BI follow-up views. The solution also covered BOM comparison, rejection paths, pending-job control, and history tracking.
+        </p>
+       </div>
+      </article>
+      <article class="star-card reveal">
+       <div class="star-letter">
+        R
+       </div>
+       <div>
+        <h2>
+         Result
+        </h2>
+        <p>
+         Created one visible workflow for registration, confirmation, rejection, escalation, and follow-up. The system improved cross-functional coordination, made pending work easier to identify, and reduced reliance on fragmented manual tracking.
+        </p>
+       </div>
+      </article>
+     </div>
+    </div>
+   </section>
+   <section class="section section-media">
+    <div class="container">
+     <div class="section-head">
+      <div class="section-label">
+       Project Visuals
+      </div>
+      <div>
+       <h2>
+        From registration screens to shop-floor rollout.
+       </h2>
+       <p>
+        The visuals below show the operational interfaces and training used to connect Production and IPQC in one quality-gate workflow.
+       </p>
+      </div>
+     </div>
+     <div class="case-media-grid">
+      <figure class="media-card reveal">
+       <div class="media-frame">
+        <img alt="Buy-off registration screen used by Production" loading="lazy" src="../../assets/images/projects/quality-gate/buyoff-ui.webp"/>
+       </div>
+       <figcaption>
+        Buy-off registration &mdash; a simple shop-floor entry point for Line Leaders to start the approval workflow.
+       </figcaption>
+      </figure>
+      <figure class="media-card reveal">
+       <div class="media-frame">
+        <img alt="FAI registration interface used for quality validation" loading="lazy" src="../../assets/images/projects/quality-gate/fai-registration.webp"/>
+       </div>
+       <figcaption>
+        FAI registration &mdash; the QC-facing interface for model, line, material, and validation details.
+       </figcaption>
+      </figure>
+      <figure class="media-card reveal">
+       <div class="media-frame media-frame--photo">
+        <img alt="Production and IPQC training session for the quality-gate application" loading="lazy" src="../../assets/images/projects/quality-gate/training-1.webp"/>
+       </div>
+       <figcaption>
+        Process rollout &mdash; hands-on training with Production and IPQC on when to register Buy-off and how to confirm it.
+       </figcaption>
+      </figure>
+      <figure class="media-card reveal">
+       <div class="media-frame media-frame--photo">
+        <img alt="Shop-floor group training for the quality-gate workflow" loading="lazy" src="../../assets/images/projects/quality-gate/training-2.webp"/>
+       </div>
+       <figcaption>
+        User adoption &mdash; practical shop-floor walkthrough covering app usage, contact flow, and IPQC confirmation.
+       </figcaption>
+      </figure>
+     </div>
+    </div>
+   </section>
+   <section class="section section-tight">
+    <div class="container">
+     <div class="section-head">
+      <div class="section-label">
+       Key Highlights
+      </div>
+      <div>
+       <h2>
+        What this project demonstrates.
+       </h2>
+       <p>
+        Technology and methods: Power Apps &middot; Power Automate &middot; SharePoint &middot; Databricks SQL &middot; Power BI.
+       </p>
+      </div>
+     </div>
+     <div class="highlight-list">
+      <div class="highlight reveal">
+       End-to-end Buy-off and FAI status control
+      </div>
+      <div class="highlight reveal">
+       Automated reminders and consolidated notifications
+      </div>
+      <div class="highlight reveal">
+       Production/IPQC coordination with traceable history
+      </div>
+     </div>
+    </div>
+   </section>
+   <section>
+    <div class="container case-nav">
+     <a href="../transport-route-optimization/">
+      &larr; Tank-Truck Transportation Route Optimization
+     </a>
+     <a href="../traceability-audit/">
+      Manufacturing Traceability &amp; Data Audit &rarr;
+     </a>
+    </div>
+   </section>
+  </main>
+  <footer class="footer">
+   <div class="container footer-inner">
+    <span>
+     &copy;
+     <span data-year="">
+     </span>
+     Nguyen Viet Bao
+    </span>
+    <a href="../../#projects">
+     All projects
+    </a>
+   </div>
+  </footer>
+  <script src="../../assets/js/main.js">
+  </script>
+ </body>
+</html>

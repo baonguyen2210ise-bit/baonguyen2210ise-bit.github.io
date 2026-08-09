@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="First Pass Yield analytics dashboard case study by Nguyen Viet Bao.">
+  <meta name="theme-color" content="#f6f5f1">
+  <link rel="icon" href="../../favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../../assets/css/style.css">
+  <title>First Pass Yield Analytics Dashboard — Nguyen Viet Bao</title>
+</head>
+<body>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="../../">NB<span>.</span></a>
+    <nav class="nav" aria-label="Main navigation">
+      <a href="../../#about">About</a>
+      <a href="../../#projects">Projects</a>
+      <a href="../../#experience">Experience</a>
+      <a href="../../#skills">Skills</a>
+      <a href="../../#contact">Contact</a>
+    </nav>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+    <a class="header-link" href="../../assets/documents/Nguyen_Viet_Bao_CV.pdf" target="_blank" rel="noopener">View CV ↗</a>
+  </div>
+</header>
+<main>
+  <section class="case-hero">
+    <div class="container">
+      <a class="back-link" href="../../#projects">← Back to project portfolio</a>
+      <div class="case-title-row">
+        <div>
+          <p class="eyebrow">06 · Manufacturing Analytics · Quality Performance</p>
+          <h1>First Pass Yield (FPY) Analytics Dashboard</h1>
+        </div>
+        <p class="case-intro">A Power BI analytics solution that converts production test events into actionable FPY, retest, line, model, and machine-code insights for daily quality monitoring.</p>
+      </div>
+      <div class="case-image case-image--contain reveal">
+        <img src="../../assets/images/projects/fpy-dashboard/dashboard.webp" alt="First Pass Yield analytics dashboard with daily trend, line and model rankings, machine-code retest analysis, and heatmap">
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container case-facts">
+      <div class="fact"><span>Role</span><strong>Dashboard Developer &amp; Data Analyst</strong></div>
+      <div class="fact"><span>Scope</span><strong>Production Quality · Lines 1300–1399</strong></div>
+      <div class="fact"><span>Project Type</span><strong>Manufacturing Analytics · Quality Monitoring</strong></div>
+      <div class="fact"><span>Technology</span><strong>Databricks SQL · Power BI · DAX · Power Query</strong></div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container star-layout">
+      <div class="section-label">STAR Case Study</div>
+      <div class="star-list">
+        <article class="star-card reveal">
+          <div class="star-letter">S</div>
+          <div>
+            <h2>Situation</h2>
+            <p>Production test data contained large volumes of unit- and machine-level events, including repeated transactions and retests. Standard reporting made it difficult to quickly identify which line, model, or machine code was driving FPY loss over a selected period.</p>
+          </div>
+        </article>
+        <article class="star-card reveal">
+          <div class="star-letter">T</div>
+          <div>
+            <h2>Task</h2>
+            <p>Build a reliable FPY data model and a filter-responsive dashboard that could move from plant-level performance to the exact line, model, machine group, PC, or machine code requiring attention.</p>
+          </div>
+        </article>
+        <article class="star-card reveal">
+          <div class="star-letter">A</div>
+          <div>
+            <h2>Action</h2>
+            <p>Prepared production event data in Databricks, deduplicated test transactions, and derived reporting fields such as Model Code, Family, Machine Group, PC, Line, and Unit ID. Built Power BI measures for first pass, retest, FPY, tested units, and exception rankings, then designed slicers for Date, Family, Model, Machine Group, PC Name, Line, and Machine Code. Added a daily FPY trend, highest/lowest line and model rankings, machine-code retest rankings, and a dynamic date-range-by-line FPY heatmap.</p>
+          </div>
+        </article>
+        <article class="star-card reveal">
+          <div class="star-letter">R</div>
+          <div>
+            <h2>Result</h2>
+            <p>Created a single operational view that highlights FPY movement, worst-performing lines and models, and machine codes with abnormal retest behavior. The ranking and heatmap views make recurring quality patterns easier to identify and prioritize for follow-up.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-tight">
+    <div class="container">
+      <div class="section-head">
+        <div class="section-label">Key Highlights</div>
+        <div>
+          <h2>What this project demonstrates.</h2>
+          <p>Technology and methods: Databricks SQL · Power BI · DAX · Power Query · FPY &amp; Retest Analytics.</p>
+        </div>
+      </div>
+      <div class="highlight-list">
+        <div class="highlight reveal">Multi-level FPY and retest analysis by date, line, model, and machine code</div>
+        <div class="highlight reveal">Daily trend plus highest/lowest performance rankings</div>
+        <div class="highlight reveal">Dynamic FPY heatmap for line-by-date pattern detection</div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container case-nav">
+      <a href="../workforce-capacity/">← Workforce &amp; Capacity Planning Tool</a>
+      <a href="../line-balancing/">Line Balancing &amp; Manpower Optimization →</a>
+    </div>
+  </section>
+</main>
+<footer class="footer">
+  <div class="container footer-inner">
+    <span>© <span data-year></span> Nguyen Viet Bao</span>
+    <a href="../../#projects">All projects</a>
+  </div>
+</footer>
+<script src="../../assets/js/main.js"></script>
+</body>
+</html>

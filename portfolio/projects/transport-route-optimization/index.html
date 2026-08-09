@@ -1,13 +1,264 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Tank-Truck Transportation Route Optimization thesis case study by Nguyen Viet Bao."><meta name="theme-color" content="#f6f5f1"><link rel="icon" href="../../favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="../../assets/css/style.css"><title>Tank-Truck Transportation Route Optimization — Nguyen Viet Bao</title></head><body>
-<header class="site-header"><div class="container header-inner"><a class="brand" href="../../">NB<span>.</span></a><nav class="nav" aria-label="Main navigation"><a href="../../#about">About</a><a href="../../#projects">Projects</a><a href="../../#experience">Experience</a><a href="../../#skills">Skills</a><a href="../../#contact">Contact</a></nav><button class="menu-toggle" type="button" aria-expanded="false" aria-label="Toggle menu"><span></span><span></span><span></span></button><a class="header-link" href="../../assets/documents/Nguyen_Viet_Bao_CV.pdf" target="_blank" rel="noopener">View CV ↗</a></div></header>
-<main><section class="case-hero"><div class="container"><a class="back-link" href="../../#projects">← Back to project portfolio</a><div class="case-title-row"><div><p class="eyebrow">08 · Undergraduate Thesis · Operations Research</p><h1>Tank-Truck Transportation Route Optimization</h1></div><p class="case-intro">A Python-based Vehicle Routing Problem model developed to improve tank-truck scheduling, reduce transportation cost, and support better fleet utilization.</p></div><div class="case-image reveal"><img src="../../assets/images/projects/transport-route-optimization.svg" alt="Placeholder visual for the tank-truck transportation route optimization thesis"></div></div></section>
-<section><div class="container case-facts"><div class="fact"><span>Role</span><strong>Researcher &amp; Optimization Model Developer</strong></div><div class="fact"><span>Organization</span><strong>Gas Shipping · Undergraduate Thesis</strong></div><div class="fact"><span>Project Type</span><strong>Vehicle Routing · Scheduling Optimization</strong></div><div class="fact"><span>Technology</span><strong>Python · Mathematical Modeling</strong></div></div></section>
-<section class="section"><div class="container star-layout"><div class="section-label">STAR Case Study</div><div class="star-list">
-<article class="star-card reveal"><div class="star-letter">S</div><div><h2>Situation</h2><p>Tank-truck transportation planning relied heavily on manual scheduling. The process had to account for delivery demand, vehicle capacity, routing constraints, and operational timing, creating opportunities for higher transport cost and uneven fleet utilization.</p></div></article>
-<article class="star-card reveal"><div class="star-letter">T</div><div><h2>Task</h2><p>Analyze the existing transportation problem and develop a scheduling approach that could assign routes and vehicles more efficiently while minimizing total transportation cost.</p></div></article>
-<article class="star-card reveal"><div class="star-letter">A</div><div><h2>Action</h2><p>Structured the operating requirements and constraints, formulated the problem as a Vehicle Routing Problem, implemented the optimization model in Python, and compared generated schedules with the existing manual-planning approach.</p></div></article>
-<article class="star-card reveal"><div class="star-letter">R</div><div><h2>Result</h2><p>The optimized schedules reduced total transportation cost by 6.47%–10.56% in the evaluated scenarios and improved overall fleet utilization compared with manual planning.</p></div></article>
-</div></div></section>
-<section class="section section-tight"><div class="container"><div class="section-head"><div class="section-label">Key Highlights</div><div><h2>What this project demonstrates.</h2><p>Technology and methods: Python · Vehicle Routing Problem · Mathematical Optimization · Transportation Scheduling.</p></div></div><div class="highlight-list"><div class="highlight reveal">Operational problem translated into a mathematical model</div><div class="highlight reveal">6.47%–10.56% transport-cost reduction</div><div class="highlight reveal">Improved vehicle and fleet utilization</div></div></div></section>
-<section><div class="container case-nav"><a href="../line-balancing/">← Line Balancing &amp; Manpower Optimization</a><a href="../quality-gate/">Production Quality Gate →</a></div></section></main>
-<footer class="footer"><div class="container footer-inner"><span>© <span data-year></span> Nguyen Viet Bao</span><a href="../../#projects">All projects</a></div></footer><script src="../../assets/js/main.js"></script></body></html>
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width,initial-scale=1" name="viewport"/>
+  <meta content="LPG tank-truck transportation route optimization thesis case study by Nguyen Viet Bao." name="description"/>
+  <meta content="#f6f5f1" name="theme-color"/>
+  <link href="../../favicon.svg" rel="icon" type="image/svg+xml"/>
+  <link href="../../assets/css/style.css" rel="stylesheet"/>
+  <title>
+   Tank-Truck Transportation Route Optimization &mdash; Nguyen Viet Bao
+  </title>
+ </head>
+ <body>
+  <header class="site-header">
+   <div class="container header-inner">
+    <a class="brand" href="../../">
+     NB
+     <span>
+      .
+     </span>
+    </a>
+    <nav aria-label="Main navigation" class="nav">
+     <a href="../../#about">
+      About
+     </a>
+     <a href="../../#projects">
+      Projects
+     </a>
+     <a href="../../#experience">
+      Experience
+     </a>
+     <a href="../../#skills">
+      Skills
+     </a>
+     <a href="../../#contact">
+      Contact
+     </a>
+    </nav>
+    <button aria-expanded="false" aria-label="Toggle menu" class="menu-toggle" type="button">
+     <span>
+     </span>
+     <span>
+     </span>
+     <span>
+     </span>
+    </button>
+    <a class="header-link" href="../../assets/documents/Nguyen_Viet_Bao_CV.pdf" rel="noopener" target="_blank">
+     View CV &nearrow;
+    </a>
+   </div>
+  </header>
+  <main>
+   <section class="case-hero">
+    <div class="container">
+     <a class="back-link" href="../../#projects">
+      &larr; Back to project portfolio
+     </a>
+     <div class="case-title-row">
+      <div>
+       <p class="eyebrow">
+        08 &middot; Undergraduate Thesis &middot; Operations Research
+       </p>
+       <h1>
+        Tank-Truck Transportation Route Optimization
+       </h1>
+      </div>
+      <p class="case-intro">
+       A Python-based hybrid Vehicle Routing Problem model for LPG tank-truck scheduling, integrating multi-depot, multi-trip, split-delivery, capacity, cost, and driver working-time constraints.
+      </p>
+     </div>
+     <div class="case-image reveal case-image--contain">
+      <img alt="OpenStreetMap visualization of optimized LPG tank-truck delivery routes" src="../../assets/images/projects/tank-truck/route-map.webp"/>
+     </div>
+    </div>
+   </section>
+   <section>
+    <div class="container case-facts">
+     <div class="fact">
+      <span>
+       Role
+      </span>
+      <strong>
+       Researcher &amp; Optimization Model Developer
+      </strong>
+     </div>
+     <div class="fact">
+      <span>
+       Study Scope
+      </span>
+      <strong>
+       3 Depots &middot; 24 Customers &middot; Heterogeneous Fleet
+      </strong>
+     </div>
+     <div class="fact">
+      <span>
+       Model
+      </span>
+      <strong>
+       Multi-Depot &middot; Multi-Trip &middot; Split-Delivery VRP
+      </strong>
+     </div>
+     <div class="fact">
+      <span>
+       Technology
+      </span>
+      <strong>
+       Python &middot; Savings &middot; Genetic Algorithm &middot; 2-opt
+      </strong>
+     </div>
+    </div>
+   </section>
+   <section class="section">
+    <div class="container star-layout">
+     <div class="section-label">
+      STAR Case Study
+     </div>
+     <div class="star-list">
+      <article class="star-card reveal">
+       <div class="star-letter">
+        S
+       </div>
+       <div>
+        <h2>
+         Situation
+        </h2>
+        <p>
+         The existing LPG delivery approach typically assigned one customer per trip, which limited vehicle utilization and increased fixed and operating cost. In the baseline scenario, 27 vehicles were used with 66.48% average load efficiency and a 65.07% operating-time ratio.
+        </p>
+       </div>
+      </article>
+      <article class="star-card reveal">
+       <div class="star-letter">
+        T
+       </div>
+       <div>
+        <h2>
+         Task
+        </h2>
+        <p>
+         Develop a practical routing and scheduling model that could reduce total transportation cost while respecting real operating constraints such as vehicle capacity, multiple depots, multiple trips, split deliveries, customer service time, driver working hours, and mandatory rest periods.
+        </p>
+       </div>
+      </article>
+      <article class="star-card reveal">
+       <div class="star-letter">
+        A
+       </div>
+       <div>
+        <h2>
+         Action
+        </h2>
+        <p>
+         Formulated the problem as a multi-depot, multi-trip VRP with split delivery. Built a hybrid search in Python using a Savings-based initial solution, Genetic Algorithm operators, and 2-opt local search. The study used real operational demand, vehicle and cost parameters, HERE WeGo travel data, sensitivity analysis for GA settings, and OpenStreetMap visualization for the optimized routes.
+        </p>
+       </div>
+      </article>
+      <article class="star-card reveal">
+       <div class="star-letter">
+        R
+       </div>
+       <div>
+        <h2>
+         Result
+        </h2>
+        <p>
+         The best evaluated solution reduced total operating cost from 245,089,746 VND to 200,442,606 VND &mdash; a reduction of 44,647,140 VND (18.22%). Required vehicles fell from 27 to 16, load efficiency increased from 66.48% to 96.07%, and the operating-time ratio improved from 65.07% to 83.36%.
+        </p>
+       </div>
+      </article>
+     </div>
+    </div>
+   </section>
+   <section class="section section-media">
+    <div class="container">
+     <div class="section-head">
+      <div class="section-label">
+       Project Visuals
+      </div>
+      <div>
+       <h2>
+        From optimization logic to route allocation.
+       </h2>
+       <p>
+        The model combines a hybrid search process with route-level output so the optimization can be evaluated both mathematically and operationally.
+       </p>
+      </div>
+     </div>
+     <div class="case-media-grid">
+      <figure class="media-card reveal">
+       <div class="media-frame">
+        <img alt="Flowchart of Savings, Genetic Algorithm, and 2-opt optimization process" loading="lazy" src="../../assets/images/projects/tank-truck/algorithm.webp"/>
+       </div>
+       <figcaption>
+        Hybrid search process &mdash; Savings initialization, GA selection/crossover/mutation, early stopping, and 2-opt local search.
+       </figcaption>
+      </figure>
+      <figure class="media-card reveal">
+       <div class="media-frame">
+        <img alt="Diagram of optimized vehicle routes across depots and customer locations" loading="lazy" src="../../assets/images/projects/tank-truck/route-diagram.webp"/>
+       </div>
+       <figcaption>
+        Optimized route allocation &mdash; the generated schedule consolidates customer visits and improves fleet utilization.
+       </figcaption>
+      </figure>
+     </div>
+    </div>
+   </section>
+   <section class="section section-tight">
+    <div class="container">
+     <div class="section-head">
+      <div class="section-label">
+       Key Highlights
+      </div>
+      <div>
+       <h2>
+        What this project demonstrates.
+       </h2>
+       <p>
+        Technology and methods: Python &middot; Savings Algorithm &middot; Genetic Algorithm &middot; 2-opt Local Search &middot; VRP &middot; HERE WeGo &middot; OpenStreetMap.
+       </p>
+      </div>
+     </div>
+     <div class="highlight-list">
+      <div class="highlight reveal">
+       18.22% reduction in total operating cost
+      </div>
+      <div class="highlight reveal">
+       Vehicles reduced from 27 to 16
+      </div>
+      <div class="highlight reveal">
+       Load efficiency improved from 66.48% to 96.07%
+      </div>
+     </div>
+    </div>
+   </section>
+   <section>
+    <div class="container case-nav">
+     <a href="../line-balancing/">
+      &larr; Line Balancing &amp; Manpower Optimization
+     </a>
+     <a href="../quality-gate/">
+      Production Quality Gate &rarr;
+     </a>
+    </div>
+   </section>
+  </main>
+  <footer class="footer">
+   <div class="container footer-inner">
+    <span>
+     &copy;
+     <span data-year="">
+     </span>
+     Nguyen Viet Bao
+    </span>
+    <a href="../../#projects">
+     All projects
+    </a>
+   </div>
+  </footer>
+  <script src="../../assets/js/main.js">
+  </script>
+ </body>
+</html>
